@@ -1,0 +1,106 @@
+.login-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-container {
+  padding: 10px;
+}
+
+.login-form .form-label {
+  font-weight: bold;
+}
+
+.login-form .form-control {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.register-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-message {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.banner {
+  background-color: #f4e2d8; /* Similar to the peach color in the screenshot */
+  padding: 20px;
+}
+
+.banner h1 {
+  color: #333;
+}
+
+.banner p {
+  color: #666;
+}
+.feature {
+  padding: 20px;
+  background-color: #fff; /* Optional, depending on your design */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
