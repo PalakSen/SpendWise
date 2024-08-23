@@ -1,0 +1,552 @@
+.login-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-container {
+  padding: 10px;
+}
+
+.login-form .form-label {
+  font-weight: bold;
+}
+
+.login-form .form-control {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.register-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-message {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.banner {
+  background-color: #f4e2d8; /* Similar to the peach color in the screenshot */
+  padding: 20px;
+}
+
+.banner h1 {
+  color: #333;
+}
+
+.banner p {
+  color: #666;
+}
+.feature {
+  padding: 20px;
+  background-color: #fff; /* Optional, depending on your design */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+
+
+.table-custom {
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table-custom th {
+  text-align: center;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.table-custom td {
+  vertical-align: middle;
+  text-align: center; /* Optionally center the content of the cells too */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .table-custom th, .table-custom td {
+      padding: 10px 5px; /* Smaller padding for space efficiency on small screens */
+  }
+}
+
+.table-custom td.amount {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.table-custom td.amount.negative {
+  color: #dc3545;
+}
+
+
+
+
+/* General Styles */
+.loading, .error {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link.active {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Button Styles */
+.card-footer .btn {
+  border-radius: 0.2rem;
+}
+
+
+
+
+
+
+
+.registration-choice-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.548);
+  text-align: center;
+}
+
+.choice-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.choice-container {
+  display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice-box {
+  background: #f1f1f1;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 45%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice-box:hover {
+  background-color: #e0e0e0;
+}
+
+.choice-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5477f5;
+}
+
+.choice-box p {
+  font-size: 14px;
+  color: #666;
+}
+/*Single uSer Reg*/
+/* Container for the form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  /* background: url('https://unsplash.com/photos/silver-and-gold-round-coins-in-box-maJDOJSmMoo') no-repeat center center fixed; */
+  background-size: cover;
+  min-height: 100vh; /* Ensure that the container at least takes full viewport height */
+  padding-top: 6rem; /* Add top padding to avoid overlap with navbar */
+  box-sizing: border-box;
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds viewport height */
+}
+
+/* Title for the form */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Main registration form styling */
+.registration-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for individual form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Add spacing between form fields */
+}
+
+/* Label styling within form groups */
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input styling within form groups */
+.form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* Container and styling for the submit button */
+/*.submit-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally 
+  grid-column: span 2; /* Ensure it spans full width in the grid 
+  margin-top: 1rem;
+}/*
+
+/* Styling for the submit button */
+/* .submit-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+} */
+
+/* Hover effect for the submit button */
+/* .submit-button:hover {
+  background-color: #0056b3;
+} */
+
+/* Responsive design adjustments for smaller screens */
+/* @media (max-width: 600px) {
+  .submit-button-container {
+      grid-column: span 1; /* Adjust grid span for smaller screens 
+  }
+} */
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+/*Organization Reg*/
+
+.form-container {
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  background: url('https://unsplash.com/photos/silver-and-gold-round-coins-in-box-maJDOJSmMoo') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh; /* Ensure that the container at least takes full viewport height */
+  padding-top: 6rem; /* Add top padding to avoid overlap with navbar */
+  box-sizing: border-box;
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds viewport height */
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #03020d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.registration-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Add spacing between form fields */
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+.submit-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  grid-column: span 2; /* Ensure it spans full width in the grid */
+  margin-top: 1rem;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .submit-button-container {
+      grid-column: span 1; /* Adjust grid span for smaller screens */
+  }
+}
+
+
+/*Department Reg*/
+
+.login-card {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.update-user-container {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+}
+
+.update-form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-form-container h2 {
+  color: #343a40;
+  font-weight: 700;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.navbar {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+
